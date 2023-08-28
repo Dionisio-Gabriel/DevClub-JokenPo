@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-size: cover;
+    background-image: url(./assets/background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container{
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.925);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+button{
+    padding: 20px;
+    font-size: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 10px;
+    transition: opacity 0.5s ease-in-out;
+}
+
+button:hover{
+    opacity: 0.5;
+}
+
+.buttons{
+    margin-top: 30px;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 0px;
+}
+
+#pedra{
+    background-color: #2ca15e;
+}
+#papel{
+    background-color: #12a9dd;
+}
+#tesoura{
+    background-color: #c8397f;
+}
+
+h1{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 50px;
+    font-style: bold;    
+}
+
+p{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin-top: 20px;
+    font-weight: bold;
+    font-size: 20px;    
+}
+
+.your-score spam{
+    font-size: 40px;
+    color:#2ca15e;
+}
+
+.machine-score spam{
+    font-size: 40px;
+    color:#c8397f;
+}
